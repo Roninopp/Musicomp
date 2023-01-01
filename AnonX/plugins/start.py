@@ -31,12 +31,12 @@ loop = asyncio.get_running_loop()
 
 
 @app.on_message(
-    filters.command(get_command("VCSTART_COMMAND"))
+    filters.command(get_command("START_COMMAND"))
     & filters.private
     & ~filters.edited
     & ~BANNED_USERS
 )
-@LanguageVcStart
+@LanguageStart
 async def start_comm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     if len(message.text.split()) > 1:
