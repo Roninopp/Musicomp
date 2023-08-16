@@ -10,11 +10,11 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "7217645"))
 API_HASH = getenv("API_HASH", "78ba6352dd5cdc166fdef5aa84ba7c67")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "2100096282:AAEls5EFlORYva-cCFiXQ_xQZW2wbXIR2Wo")
+BOT_TOKEN = getenv("BOT_TOKEN", "6292817735:AAEpf5QdF_TmY8NKwC9qv1e5gPMaEeZ4Ngo")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://DARKAMAN:DARKAMAN@cluster0.snqhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", " -1001847287482"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Fantastic")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Makise")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "1793699293").split()))
 
